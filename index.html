@@ -4,18 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
   <title>Create Unlimited Gmails Without Phone Number | Iqra Dealer</title>
-  <meta name="description" content="Create Unlimited Gmails Without Phone Number — a professional frontend account creation simulator and UI demonstration by Iqra Dealer.">
-  <meta name="keywords" content="Gmail demo, account simulator, UI demonstration, frontend, Iqra Dealer">
+  <meta name="description" content="Create Unlimited Gmails Without Phone Number. Iqra Dealer provides a simple Gmail account creation interface and account management dashboard.">
+  <meta name="keywords" content="create unlimited gmails, unlimited gmails, create gmail without phone number, gmail accounts, gmail account creation, Iqra Dealer">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://demo.iqradealer.com">
+  <link rel="canonical" href="https://createunlimitedgmail.vercel.app/">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <!-- Open Graph -->
-  <meta property="og:title" content="Create Unlimited Gmails Without Phone Number | Iqra Dealer Demo">
-  <meta property="og:description" content="Professional frontend account creation simulator and UI demonstration by Iqra Dealer.">
+  <meta property="og:title" content="Create Unlimited Gmails Without Phone Number | Iqra Dealer">
+  <meta property="og:description" content="Create Unlimited Gmails Without Phone Number with Iqra Dealer.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://demo.iqradealer.com">
+  <meta property="og:url" content="https://createunlimitedgmail.vercel.app/">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Create Unlimited Gmails Without Phone Number | Iqra Dealer Demo">
-  <meta name="twitter:description" content="Professional frontend account creation simulator and UI demonstration by Iqra Dealer.">
+  <meta name="twitter:title" content="Create Unlimited Gmails Without Phone Number | Iqra Dealer">
+  <meta name="twitter:description" content="Create Unlimited Gmails Without Phone Number with Iqra Dealer.">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Google Sans', 'Inter', system-ui, -apple-system, sans-serif; }
     body { background: #f1f3f4; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 16px; transition: background 0.3s; }
@@ -77,13 +79,13 @@
     .stat-card { background: white; border-radius: var(--radius-sm); padding: 20px; border: 1px solid #e8eaed; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
     .stat-card h4 { color: #5f6368; font-weight: 500; font-size: 0.8rem; letter-spacing: 0.3px; }
     .stat-card .value { color: #202124; font-size: 2rem; font-weight: 500; margin: 4px 0 0; }
-    .demo-form { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 24px 0; background: white; padding: 28px; border-radius: var(--radius-sm); border: 1px solid #e8eaed; }
-    .demo-form .full-width { grid-column: 1 / -1; }
-    .demo-form input { padding: 14px 16px; background: #f1f3f4; border: 1px solid #dadce0; border-radius: 8px; color: #202124; font-size: 0.95rem; width: 100%; outline: none; transition: 0.2s; }
-    .demo-form input:focus { border-color: var(--accent); background: white; box-shadow: 0 0 0 2px rgba(26,115,232,0.15); }
-    .demo-note { background: #e8f0fe; padding: 14px 18px; border-radius: 8px; color: #1a73e8; font-size: 0.9rem; margin: 18px 0; border-left: 4px solid var(--accent); }
-    .btn-demo { background: var(--accent); border: none; padding: 14px 30px; border-radius: 8px; color: white; font-weight: 500; cursor: pointer; transition: 0.2s; width: fit-content; }
-    .btn-demo:hover { background: var(--accent-glow); box-shadow: 0 2px 8px rgba(26,115,232,0.3); }
+    .account-form { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 24px 0; background: white; padding: 28px; border-radius: var(--radius-sm); border: 1px solid #e8eaed; }
+    .account-form .full-width { grid-column: 1 / -1; }
+    .account-form input { padding: 14px 16px; background: #f1f3f4; border: 1px solid #dadce0; border-radius: 8px; color: #202124; font-size: 0.95rem; width: 100%; outline: none; transition: 0.2s; }
+    .account-form input:focus { border-color: var(--accent); background: white; box-shadow: 0 0 0 2px rgba(26,115,232,0.15); }
+    .account-note { background: #e8f0fe; padding: 14px 18px; border-radius: 8px; color: #1a73e8; font-size: 0.9rem; margin: 18px 0; border-left: 4px solid var(--accent); }
+    .btn-account { background: var(--accent); border: none; padding: 14px 30px; border-radius: 8px; color: white; font-weight: 500; cursor: pointer; transition: 0.2s; width: fit-content; }
+    .btn-account:hover { background: var(--accent-glow); box-shadow: 0 2px 8px rgba(26,115,232,0.3); }
     .history-table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.9rem; background: white; border-radius: var(--radius-sm); overflow: hidden; border: 1px solid #e8eaed; }
     .history-table th { text-align: left; color: #5f6368; font-weight: 500; padding: 14px 16px; border-bottom: 1px solid #e8eaed; background: #f8f9fa; }
     .history-table td { padding: 14px 16px; border-bottom: 1px solid #f1f3f4; color: #202124; }
@@ -102,7 +104,7 @@
       .nav-links { display: none; flex-direction: column; width: 100%; padding: 20px 0; gap: 8px; background: white; border-radius: 12px; margin-top: 8px; }
       .nav-links.open { display: flex; }
       .hamburger { display: flex; }
-      .demo-form { grid-template-columns: 1fr; }
+      .account-form { grid-template-columns: 1fr; }
       .stats-grid { grid-template-columns: 1fr 1fr; }
       .login-wrapper { padding: 24px 16px; }
     }
@@ -110,10 +112,23 @@
       .stats-grid { grid-template-columns: 1fr; }
       .contact-row { flex-direction: column; align-items: flex-start; }
     }
-    .demo-header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
-    .demo-header svg { width: 28px; height: 28px; fill: #1a73e8; }
+    .account-header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+    .account-header svg { width: 28px; height: 28px; fill: #1a73e8; }
     .gmail-icon { color: #1a73e8; }
   </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Create Unlimited Gmails Without Phone Number",
+    "url": "https://createunlimitedgmail.vercel.app/",
+    "description": "Create Unlimited Gmails Without Phone Number with Iqra Dealer.",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Web Browser",
+    "author": {"@type": "Person", "name": "Iqra Dealer"}
+  }
+  </script>
 </head>
 <body>
 <div class="container" id="app">
@@ -130,7 +145,7 @@
       <form id="loginForm" onsubmit="return handleLogin(event)">
         <div class="input-group">
           <label>Username</label>
-          <input type="text" id="username" placeholder="Enter Username" placeholder="Enter username">
+          <input type="text" id="username" placeholder="Enter Username">
         </div>
         <div class="input-group">
           <label>Password</label>
@@ -180,21 +195,21 @@
         </div>
       </div>
       <div id="create" style="display:none;">
-        <div class="demo-header">
+        <div class="account-header">
           <svg viewBox="0 0 24 24" fill="#1a73e8" width="28" height="28"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
           <h3 style="color:#202124; font-weight:400;">Create Your Email Account</h3>
         </div>
-        <div class="demo-note">“Create unlimited Gmails Without Phone Number.”</div>
-        <form id="demoForm" onsubmit="return createDemoAccount(event)" class="demo-form">
+        <div class="account-note">“Create unlimited Gmails Without Phone Number.”</div>
+        <form id="accountForm" onsubmit="return createAccount(event)" class="account-form">
           <input type="text" id="firstName" placeholder="First Name" required>
           <input type="text" id="lastName" placeholder="Last Name" required>
           <input type="text" id="desiredUsername" placeholder="Desired Username" required class="full-width">
-          <input type="password" id="demoPassword" placeholder="Password" required>
+          <input type="password" id="accountPassword" placeholder="Password" required>
           <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
-          <input type="email" id="recoveryEmail" placeholder="Recovery Email (optional demo)" class="full-width">
+          <input type="email" id="recoveryEmail" placeholder="Recovery Email (optional)" class="full-width">
           <div class="full-width" style="color:#5f6368; font-size:0.9rem;">Phone Number — Optional</div>
-          <input type="text" id="phoneDemo" placeholder="Phone (optional)" class="full-width">
-          <button type="submit" class="btn-demo full-width" style="width:100%;">Create Account</button>
+          <input type="text" id="phoneNumber" placeholder="Phone (optional)" class="full-width">
+          <button type="submit" class="btn-account full-width" style="width:100%;">Create Account</button>
         </form>
       </div>
       <div id="history" style="display:none;">
@@ -205,7 +220,7 @@
             <tbody id="historyBody"></tbody>
           </table>
         </div>
-        <button class="btn-demo" onclick="clearHistory()" style="background:#dadce0; color:#202124;">Clear History</button>
+        <button class="btn-account" onclick="clearHistory()" style="background:#dadce0; color:#202124;">Clear History</button>
       </div>
       <div id="contact" style="display:none;">
         <div class="glass-card" style="max-width:500px; background:white; border:1px solid #e8eaed;">
@@ -235,31 +250,33 @@
   </div>
 </div>
 <div id="toast" class="toast">Copied!</div>
+
+<noscript><section style="max-width:900px;margin:30px auto;padding:20px;font-family:Arial,sans-serif;"><h2>Create Unlimited Gmails Without Phone Number</h2><p>Gmail account creation and account management interface by Iqra Dealer.</p></section></noscript>
 <script>
   // --- state
   let loggedIn = false;
-  let Accounts = JSON.parse(localStorage.getItem('demoAccounts')) || [];
+  let Accounts = JSON.parse(localStorage.getItem('gmailAccounts')) || [];
   let counter = Accounts.length;
 
   function renderHistory() {
     const body = document.getElementById('historyBody');
     if (!body) return;
     if (Accounts.length === 0) {
-      body.innerHTML = `<tr><td colspan="5" style="color:#5f6368; text-align:center; padding:24px;">No demo accounts created yet.</td></tr>`;
+      body.innerHTML = `<tr><td colspan="5" style="color:#5f6368; text-align:center; padding:24px;">No accounts created yet.</td></tr>`;
       return;
     }
     body.innerHTML = Accounts.map((acc, i) => `
-      <tr><td>${i+1}</td><td>${acc.email}</td><td>${acc.username}</td><td>${acc.createdAt}</td><td><span class="badge">Demo Only</span></td></tr>
+      <tr><td>${i+1}</td><td>${acc.email}</td><td>${acc.username}</td><td>${acc.createdAt}</td><td><span class="badge">Created</span></td></tr>
     `).join('');
     document.getElementById('accCount').innerText = Accounts.length;
   }
 
-  function createDemoAccount(e) {
+  function createAccount(e) {
     e.preventDefault();
     const firstName = document.getElementById('firstName').value.trim();
     const lastName = document.getElementById('lastName').value.trim();
     const desired = document.getElementById('desiredUsername').value.trim();
-    const pass = document.getElementById('demoPassword').value;
+    const pass = document.getElementById('accountPassword').value;
     const confirm = document.getElementById('confirmPassword').value;
     if (!firstName || !lastName || !desired || !pass || !confirm) {
       toastMessage('Please fill all required fields.');
@@ -269,20 +286,20 @@
       toastMessage('Passwords do not match.');
       return false;
     }
-    const email = desired.toLowerCase().replace(/\s/g,'') + '@example-demo.com';
-    const id = '#DEMO-' + String(100 + counter + 1).padStart(3,'0');
+    const email = desired.toLowerCase().replace(/\s/g,'') + '@example.com';
+    const id = '#USER-' + String(100 + counter + 1).padStart(3,'0');
     const now = new Date().toLocaleString();
     Accounts.push({ email, username: desired, createdAt: now, id });
     counter++;
-    localStorage.setItem('demoAccounts', JSON.stringify(Accounts));
+    localStorage.setItem('gmailAccounts', JSON.stringify(Accounts));
     renderHistory();
     document.getElementById('modalEmail').innerText = email;
     document.getElementById('modalId').innerText = id;
     document.getElementById('modalTime').innerText = now;
     document.getElementById('successModal').style.display = 'flex';
-    document.getElementById('demoForm').reset();
+    document.getElementById('accountForm').reset();
     document.getElementById('accCount').innerText = Accounts.length;
-    toastMessage('Demo account created!');
+    toastMessage('Account created!');
     return false;
   }
 
@@ -306,9 +323,9 @@
   }
 
   function clearHistory() {
-    if (confirm('Clear all demo history?')) {
+    if (confirm('Clear all account history?')) {
       Accounts = [];
-      localStorage.setItem('demoAccounts', JSON.stringify(Accounts));
+      localStorage.setItem('gmailAccounts', JSON.stringify(Accounts));
       renderHistory();
       document.getElementById('accCount').innerText = '0';
       toastMessage('History cleared.');
